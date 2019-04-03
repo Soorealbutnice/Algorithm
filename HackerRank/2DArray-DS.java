@@ -10,7 +10,8 @@ public class Arrayy {
 					           {0, 0, 0, 0, 0, 0} };
 
     static int hourglassSum(int[][] arr) {
-        int sum = 0;
+        // 나올 수 있는 가장 작은 수로 초기화
+    	int sum = -9 * 7;
         int each_sum = 0;
     	
         for (int j = 0; j < 4; j++) {
